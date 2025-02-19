@@ -1,6 +1,6 @@
 # Windows Modern Cursors
 
-Remake of the classic and aero cursors from Microsoft Windows
+Improved Aero for DPI and Dark Mode
 
 <img src="images/cover.png" width="100%">
 
