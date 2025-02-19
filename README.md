@@ -6,7 +6,7 @@ Improved Aero for DPI and Dark Mode
 
 # Installation
 
-1. Navigate to the [Releases](https://github.com/oxou/windows-modern-cursors/releases) page
+1. Navigate to the [Releases](https://github.com/imshvc/windows-cursors-modern/releases) page
 2. Download the latest 7z archive and extract it
 3. Read the further instructions inside `readme.txt`
 
