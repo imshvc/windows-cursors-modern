@@ -1,0 +1,11 @@
+.filter {
+  width: 100%;
+}
+
+.filter input {
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 12pt;
+  width: 25%;
+}
+

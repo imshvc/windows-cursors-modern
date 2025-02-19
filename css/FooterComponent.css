@@ -1,0 +1,25 @@
+.footer {
+  background: linear-gradient(to top, transparent, hsl(0, 0%, 0%));
+  text-align: center;
+  padding: 40px 0;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: -32px;
+  width: calc(100% + 64px);
+  padding: 60px 0;
+}
+
+.footer a {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  color: hsl(239, 100%, 83%);
+  padding: 0 2px;
+  border-radius: 4px;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  background-color: hsl(237, 100%, 96%);
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}

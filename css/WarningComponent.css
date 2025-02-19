@@ -1,0 +1,39 @@
+.warning-element {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 100%, 61%);
+  text-shadow: 0.2px 0.2px hsl(0, 82%, 31%);
+  position: fixed;
+  display: block;
+  right: 16px;
+  bottom: 16px;
+  box-shadow: 0 5px 10px hsla(0, 0%, 0%, 0.286);
+  border-radius: 8px;
+  outline: 3px solid hsla(0, 0%, 54%, 0.453);
+}
+
+.warning-element::after {
+  content: '';
+  width: inherit;
+  height: inherit;
+  background: blue;
+  display: block;
+  margin: -3px;
+  border-radius: inherit;
+}
+
+.warning-element .title,
+.warning-element .text {
+  width: 100%;
+  float: left;
+}
+
+.warning-element .title {
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.warning-element .text {
+  font-weight: normal;
+  padding: 0 16px 16px 16px;
+}

@@ -1,0 +1,73 @@
+.header {
+  background: none;
+  background-image: url('../assets/background/header.png');
+  background-repeat: repeat;
+  background-size: 50% auto;
+  color: hsl(0, 0%, 100%);
+  width: calc(100% + 64px);
+  font-size: 2rem;
+  margin-left: -32px;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.5);
+  text-align: left;
+}
+
+.header .top-section {
+  --padding-vertical: 48px;
+  --padding-horizontal: 32px;
+  background: red;
+  background: none;
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header .top-section .left {
+  width: 20%;
+  text-align: left;
+  padding-top: var(--padding-vertical);
+  padding-left: var(--padding-horizontal);
+}
+
+.header .top-section .right {
+  width: 20%;
+  text-align: right;
+  padding-top: var(--padding-vertical);
+  padding-right: var(--padding-horizontal);
+}
+
+.header .top-section .center {
+  --font-color: hsl(0, 0%, 95%);
+  --font-outline: hsl(0, 0%, 20%);
+  padding-top: var(--padding-vertical);
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
+  color: var(--font-color);
+  /* outline */
+  text-shadow:
+  -1px -1px var(--font-outline),
+  1px -1px var(--font-outline),
+  1px 1px var(--font-outline),
+  -1px 1px var(--font-outline),
+  -2px -2px var(--font-outline),
+  2px -2px var(--font-outline),
+  2px 2px var(--font-outline),
+  -2px 2px var(--font-outline);
+}
+
+.header .bottom-section {
+  background: linear-gradient(to bottom, transparent, hsl(0, 0%, 0%));
+  width: 100%;
+  height: 300px;
+  justify-content: baseline;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 3rem;
+  font-family: 'Roboto';
+  font-weight: 300;
+}

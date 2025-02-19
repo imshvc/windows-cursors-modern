@@ -1,0 +1,21 @@
+.cursor-preview {
+  --margin: 12px;
+  --padding: 6px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsla(0, 0%, 0%, 0.3);
+  border-radius: 6px;
+  padding: var(--padding);
+  display: inline-block;
+  margin: 0 var(--margin) var(--margin) 0;
+  width: calc(25% - var(--margin));
+  cursor: pointer;
+  user-select: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.cursor-preview:hover {
+  background-color: hsla(256, 100%, 40%, 0.1);
+  outline: 3px solid hsl(256, 100%, 40%);
+  border-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+}
