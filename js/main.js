@@ -4,7 +4,6 @@ let header = new HeaderComponent(true);
 let filter = new FilterComponent(true);
 let cursorsList = new CursorsListComponent(true);
 let footer = new FooterComponent(true);
-let warning = new WarningComponent(true);
 
 filter.setCursorsList(cursorsList);
 
