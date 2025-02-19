@@ -79,9 +79,9 @@ class CursorsListComponent extends BaseComponent {
     }
 
     if (animated) {
-      url = ASSETS_PATH_ANIMATED + `${name}/${layer ? `${layer}_` : ''}01.png`;
+      url = ASSETS_PATH_ANIMATED + `${name}/${layer ? `${layer}_` : ''}01.${CURSOR_FILETYPE}`;
     } else {
-      url = ASSETS_PATH_STATIC + `${name}${layer ? `/${layer}` : ''}.png`;
+      url = ASSETS_PATH_STATIC + `${name}${layer ? `/${layer}` : ''}.${CURSOR_FILETYPE}`;
     }
 
     html += `<div class="title">Cursor: <b>${name}</b>${layer ? ` &ndash; Layer: <b>${layer}</b>` : ''}</div>`;
